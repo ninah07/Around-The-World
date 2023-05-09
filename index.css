@@ -1,0 +1,128 @@
+body {
+  background-image: url(https://i.pinimg.com/564x/66/84/70/668470851f1a4f96d5b8cef5959ad1bf.jpg);
+  background-repeat: no repeat;
+  background-size: cover;
+  padding: 20px;
+  color: #edf2f5;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: Impact, serif;
+}
+
+.established {
+  font-style: italic;
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: #97b4c9;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  height: 2px;
+  background-color: #131414;
+  border-color: #131414;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.dish,
+.snack {
+  text-align: left;
+  width: 75%;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+  text-align: center;
+}
+
+.address {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+u {
+  color: #edf2f5;
+}
+
+u:visited {
+  color: #edf2f5;
+}
+
+u:hover {
+  color: #384680;
+}
+
+u:active {
+  color: #384680;
+}
+
+.wrapper {
+  height: 10vh;
+  display: grid;
+  place-items: center;
+}
+
+.typewriter {
+  width: 22ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: Impact, serif;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
